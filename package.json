@@ -1,0 +1,28 @@
+{
+  "name": "@tutor/javascript-editor-errors",
+  "version": "0.1.0",
+  "description": "Parses Javascript and sets errors in an editor",
+  "main": "lib/javascript-editor-errors.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors" : [
+    "Maximilian Klein <dasmaxl@gmail.com> (https://github.com/LittleHelicase)",
+    "Maik Marschner (https://github.com/leMaik)",
+    "Tim Ebbeke (https://github.com/5cript)"
+  ],
+  "repository" : "github:Welfenlab/javascript-editor-errors",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "coffeeify": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-util": "^3.0.6",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "esprima": "git+https://github.com/LittleHelicase/esprima.git#1320b70bcd936c2bcf3121843d42ca4509ba8ffd",
+    "lodash": "^3.10.0"
+  }
+}
