@@ -1,10 +1,11 @@
 {
   "name": "@tutor/javascript-editor-errors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parses Javascript and sets errors in an editor",
   "main": "lib/javascript-editor-errors.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish" : "node node_modules/gulp/bin/gulp.js"
   },
   "contributors" : [
     "Maximilian Klein <dasmaxl@gmail.com> (https://github.com/LittleHelicase)",
