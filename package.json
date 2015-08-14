@@ -1,6 +1,6 @@
 {
   "name": "@tutor/javascript-editor-errors",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parses Javascript and sets errors in an editor",
   "main": "lib/javascript-editor-errors.js",
   "scripts": {
