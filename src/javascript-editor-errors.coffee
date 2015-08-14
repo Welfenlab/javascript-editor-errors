@@ -24,4 +24,4 @@ module.exports = (markdown_processor) ->
         return r
       return resCorrLine
 
-    editor.addResult _.flatten results
+    editor.addResult editor, _.flatten results
